@@ -1,0 +1,11 @@
+<Alloy>
+	<Window layout="composite" backgroundColor="#9ACB4E" id="index" zIndex="0">
+				    
+					  <Label text="بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ" />
+                        
+						<Button id="startStopButtonRev"/>
+			            <Slider id="slider" onChange="updateLabel"/>
+
+						<Label  id="sliderTxt" text=""/>	
+   </Window>
+</Alloy>
